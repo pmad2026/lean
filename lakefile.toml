@@ -1,0 +1,19 @@
+name = "PMAD-lean"
+version = "0.1.0"
+defaultTargets = ["pmad-lean"]
+
+[[lean_lib]]
+name = "PMADLean"
+
+[[lean_exe]]
+name = "pmad-lean"
+root = "Main"
+
+[[require]]
+name="physlib"
+git = "https://github.com/leanprover-community/physlib"
+
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"

@@ -1,0 +1,6 @@
+.lake/
+!.lake/packages/
+.lake/packages/*
+!.lake/packages/manifest.json
+build/
+*~
